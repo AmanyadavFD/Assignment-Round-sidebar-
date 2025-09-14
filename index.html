@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <aside class="fixed-box" aria-label="Quick navigation">
+      <div class="tab-buttons" role="tablist">
+        <div>
+          <button class="tab-btn active" data-tab="tab1">
+            <i class="ph ph-kanban"></i>
+          </button>
+          <button class="tab-btn" data-tab="tab2">
+            <i class="ph ph-calendar-check"></i>
+          </button>
+        </div>
+        <div>
+          <button class="tab-btn" data-tab="tab3">
+            <i class="ph ph-gear-six"></i>
+          </button>
+          <button class="tab-btn"><i class="ph ph-user-circle"></i></button>
+        </div>
+      </div>
+    </aside>
+    <nav id="sidebar" class="close" aria-label="Main navigation">
+      <div class="tab-content">
+        <ul id="tab1" class="tab-panel active">
+          <li class="panel-header">
+            <span class="logo">Tasks</span>
+            <button class="toggle-btn">
+              <i class="ph ph-caret-right"></i>
+            </button>
+          </li>
+          <li class="search-box">
+            <i class="ph ph-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+          <li class="section-title">Dashboard Types</li>
+          <li>
+            <a href="#">
+              <i class="ph ph-eye"></i>
+              <span>Overview</span>
+            </a>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-file-text"></i>
+              <span>Executive Summary</span>
+              <!-- SVG Arrow -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Q1 Summary</a></li>
+                <li><a href="#">Q2 Summary</a></li>
+                <li><a href="#">Q3 Summary</a></li>
+                <li><a href="#">Q4 Summary</a></li>
+              </div>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-graph"></i>
+              <span>Operations Dashboard</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">HR</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Finance</a></li>
+              </div>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-wallet"></i>
+              <span>Financial Dashboard</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Balance Sheet</a></li>
+                <li><a href="#">P&L Statement</a></li>
+                <li><a href="#">Cash Flow</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li class="section-title">Report Summaries</li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-note"></i>
+              <span>Weekly Reports</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Week 1</a></li>
+                <li><a href="#">Week 2</a></li>
+                <li><a href="#">Week 3</a></li>
+              </div>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-star"></i>
+              <span>Monthly Insights</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">January</a></li>
+                <li><a href="#">February</a></li>
+                <li><a href="#">March</a></li>
+              </div>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-calendar"></i>
+              <span>Quarterly Analysis</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Q1</a></li>
+                <li><a href="#">Q2</a></li>
+                <li><a href="#">Q3</a></li>
+                <li><a href="#">Q4</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li class="section-title">Business Intelligence</li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-chart-line"></i>
+              <span>Performance Metrics</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">KPIs</a></li>
+                <li><a href="#">Benchmarks</a></li>
+              </div>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-trend-up"></i>
+              <span>Predictive Analytics</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Forecasting</a></li>
+                <li><a href="#">Trends</a></li>
+              </div>
+            </ul>
+          </li>
+        </ul>
+
+        <ul id="tab2" class="tab-panel">
+          <!-- Header -->
+          <li class="panel-header">
+            <span class="logo">Tasks</span>
+            <button class="toggle-btn">
+              <i class="ph ph-caret-right"></i>
+            </button>
+          </li>
+          <li class="search-box">
+            <i class="ph ph-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+
+          <li class="section-title">Quick Actions</li>
+          <li>
+            <a href="index.html"
+              ><i class="ph ph-plus"></i><span>New Task</span></a
+            >
+          </li>
+          <li>
+            <a href="dashboard.html"
+              ><i class="ph ph-funnel"></i><span>Filter tasks</span></a
+            >
+          </li>
+
+          <li class="section-title">My Tasks</li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-calendar-check"></i><span>Due today</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 -960 960 960"
+                width="20"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Today’s meeting</a></li>
+                <li><a href="#">Submit report</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-hourglass"></i><span>In progress</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 -960 960 960"
+                width="20"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">UI Design</a></li>
+                <li><a href="#">Development</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-check-circle"></i><span>Completed</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 -960 960 960"
+                width="20"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Assignment</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li class="section-title">Other</li>
+          <li>
+            <button class="dropdown-btn">
+              <i class="ph ph-flag"></i><span>Priority tasks</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 -960 960 960"
+                width="20"
+                fill="#e8eaed"
+              >
+                <path
+                  d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg>
+            </button>
+            <ul class="sub-menu">
+              <div>
+                <li><a href="#">Client Deliverable</a></li>
+                <li><a href="#">Urgent Fix</a></li>
+              </div>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#"><i class="ph ph-archive"></i><span>Archived</span></a>
+          </li>
+        </ul>
+        <ul id="tab3" class="tab-panel">
+          <li class="panel-header">
+            <span class="logo">Settings</span>
+            <button class="toggle-btn">
+              <i class="ph ph-caret-right"></i>
+            </button>
+          </li>
+
+          <li class="search-box">
+            <i class="ph ph-magnifying-glass"></i>
+            <input type="text" placeholder="Search settings..." />
+          </li>
+
+          <li class="section-title">General</li>
+          <li>
+            <a href="#"><i class="ph ph-user"></i><span>Profile</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ph ph-bell"></i><span>Notifications</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="ph ph-paint-brush"></i><span>Appearance</span></a
+            >
+          </li>
+
+          <li class="section-title">Security</li>
+          <li>
+            <a href="#"><i class="ph ph-lock"></i><span>Password</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ph ph-shield"></i><span>Privacy</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ph ph-key"></i><span>API Keys</span></a>
+          </li>
+
+          <li class="section-title">System</li>
+          <li>
+            <a href="#"><i class="ph ph-database"></i><span>Storage</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ph ph-gear"></i><span>Preferences</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ph ph-sign-out"></i><span>Logout</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main">
+      <button id="theme-toggle" class="toggle-theme-btn">
+        <i class="ph ph-sun-dim"></i>
+      </button>
+    </main>
+  </body>
+</html>
