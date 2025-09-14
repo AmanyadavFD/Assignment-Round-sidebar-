@@ -5,9 +5,7 @@
 
 This project is the implementation of the **Sr. UI Developer assignment**, where the task was to build and integrate a **pixel-perfect, responsive sidebar** using only **vanilla HTML, CSS, and JavaScript**.  
 
-## 🎥 Reference Design  
-The sidebar design reference was provided in the video below:  
-[Sidebar Design Video](https://drive.google.com/file/d/14Wnnp5oYecyIUMl9Jtb2Acj3WmZd_388/view?usp=sharing)
+
 
 
 ## 🔗 Live Demo  
